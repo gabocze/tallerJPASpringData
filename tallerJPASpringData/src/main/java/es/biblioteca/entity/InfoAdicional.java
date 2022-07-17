@@ -1,9 +1,6 @@
 package es.biblioteca.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -46,7 +43,12 @@ public class InfoAdicional {
      * Objeto libro.
      */
     @OneToOne
-    @JoinColumn(name = "libro", referencedColumnName = "id")
+    @JoinColumns(
+            {@JoinColumn(name = "libro_codigo", referencedColumnName =
+                    "codigo"),
+            @JoinColumn(name = "libro_idioma", referencedColumnName =
+                    "idioma")}
+    )
     private Libro libro;
 
 }

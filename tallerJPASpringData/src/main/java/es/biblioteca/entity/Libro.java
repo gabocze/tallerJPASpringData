@@ -2,15 +2,7 @@ package es.biblioteca.entity;
 
 import java.util.List;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -31,8 +23,8 @@ public class Libro {
     /**
      * Id.
      */
-    @Id
-    private Integer id;
+    @EmbeddedId
+    private LibroId id;
 
     /**
      * Titulo del libro.
@@ -55,7 +47,8 @@ public class Libro {
      */
     @ManyToMany
     @JoinTable(name = "autor_libro",
-    		   joinColumns = @JoinColumn(name = "libro_id"),
+    		   joinColumns = {@JoinColumn(name = "libro_id"),
+                       @JoinColumn(name= "idioma")},
     		   inverseJoinColumns = @JoinColumn(name = "autor_id")
     		  )
     private List<Autor> autores;

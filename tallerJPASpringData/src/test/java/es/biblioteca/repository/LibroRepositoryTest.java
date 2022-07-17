@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
+import es.biblioteca.entity.LibroId;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,8 +47,8 @@ public class LibroRepositoryTest {
 	@DataSet(value = "autorKenFollet.yml", cleanBefore = true, cleanAfter = true)
 	@DisplayName("Test unitario buscar por id")
 	public void testFindById() {
-
-		  Optional<Libro> libro = libroRepository.findById(1);
+		  LibroId id = new LibroId(1, "español");
+		  Optional<Libro> libro = libroRepository.findById(id);
 
 		  assertEquals(libro.isPresent(), true);
 		  assertEquals(libro.get().getTitulo(),"Los Pilares de la Tierra");
@@ -207,7 +208,8 @@ public class LibroRepositoryTest {
 	@DataSet(value = "autores.yml, categorias.yml, editoriales.yml, libros.yml", cleanBefore = true, cleanAfter = true)
 	@DisplayName("Test unitario borrar libro")
 	public void testDeleteLibro() {
-		libroRepository.deleteById(26);
+		LibroId id = new LibroId(26, "español");
+		libroRepository.deleteById(id);
 		libroRepository.flush();
 	}
 

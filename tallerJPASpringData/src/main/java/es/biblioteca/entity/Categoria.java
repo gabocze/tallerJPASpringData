@@ -10,6 +10,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
 
 /**
  * @author Juan Manuel Cintas
@@ -38,5 +40,6 @@ public class Categoria {
      * Libros de la categoría
      */
     @OneToMany(mappedBy="categoria")
+    @Fetch(FetchMode.JOIN)
     private List<Libro> libros;
 }

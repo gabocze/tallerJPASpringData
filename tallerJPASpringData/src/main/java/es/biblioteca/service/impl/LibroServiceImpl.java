@@ -2,6 +2,7 @@ package es.biblioteca.service.impl;
 
 import java.util.List;
 
+import es.biblioteca.entity.LibroId;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
@@ -42,7 +43,7 @@ public class LibroServiceImpl implements LibroService {
 
 
 	@Override
-	public Libro findById(Integer id) {
+	public Libro findById(LibroId id) {
 		log.debug("Se busca el libro del id" + id);
 		return libroRepository.getOne(id);
 	}
