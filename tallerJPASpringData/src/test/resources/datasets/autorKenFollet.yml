@@ -13,18 +13,21 @@ Editorial:
     nombre: "B DE BOOKS"   
 Libro:
   - id: 1
+    edicion: "I"
     titulo: "Los Pilares de la Tierra"
     descripcion: "Descripción de los Pilares de la Tierra"
     categoria_id: 10
     editorial: 1
     favorite: true
   - id: 14
+    edicion: "I"
     titulo: "Triple"
     descripcion: "Descripción de Triple"
     categoria_id: 10
     editorial: 2
     favorite: false
   - id: 15
+    edicion: "I"
     titulo: "Un Mundo Sin Fin"
     descripcion: "Descripción de Un Mundo Sin Fin"
     categoria_id: 10
@@ -33,10 +36,13 @@ Libro:
     
 Autor_Libro:
   - libro_id: 1
+    edicion: "I"
     autor_id: 1
   - libro_id: 14
+    edicion: "I"
     autor_id: 1
   - libro_id: 15
+    edicion: "I"
     autor_id: 1
 
 Info_Adicional:

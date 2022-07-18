@@ -1,161 +1,188 @@
 Libro:
-  - id: 1
+  - codigo: 1
+    edicion: "I"
     titulo: "Los Pilares de la Tierra"
     descripcion: "Descripción de los Pilares de la Tierra"
     categoria_id: 10
     editorial: 1
     favorite: true
-  - id: 2
+  - codigo: 2
+    edicion: "I"
     titulo: "Los Ritos del Agua"
     descripcion: "Descripción de Los Ritos del Agua"
     categoria_id: 8
     editorial: 1
     favorite: false
-  - id: 3
+  - codigo: 3
+    edicion: "I"
     titulo: "El guardián de recuerdos"
     descripcion: "Descripción de El guardián de recuerdos"
     categoria_id: 1
     editorial: 1
     favorite: false
-  - id: 4
+  - codigo: 4
+    edicion: "I"
     titulo: "Ready Player One"
     descripcion: "Descripción de Ready Player One"
     categoria_id: 1
     editorial: 8
     favorite: false
-  - id: 5
+  - codigo: 5
+    edicion: "I"
     titulo: "Dracula"
     descripcion: "Descripción de Dracula"
     categoria_id: 3
     editorial: 7
     favorite: false
-  - id: 6
+  - codigo: 6
+    edicion: "I"
     titulo: "El marciano"
     descripcion: "Descripción de El marciano"
     categoria_id: 1
     editorial: 1
     favorite: false
-  - id: 7
+  - codigo: 7
+    edicion: "I"
     titulo: "Frankenstein"
     descripcion: "Descripción de Frankenstein"
     categoria_id: 1
     editorial: 7
     favorite: false
-  - id: 8
+  - codigo: 8
+    edicion: "I"
     titulo: "Carrie"
     descripcion: "Descripción de Carrie"
     categoria_id: 3
     editorial: 3
     favorite: true
-  - id: 9
+  - codigo: 9
+    edicion: "I"
     titulo: "It"
     descripcion: "Descripción de It"
     categoria_id: 3
     editorial: 3
     favorite: true
-  - id: 10
+  - codigo: 10
+    edicion: "I"
     titulo: "El Paciente"
     descripcion: "Descripción de El Paciente"
     categoria_id: 7
     editorial: 9
     favorite: true
-  - id: 11
+  - codigo: 11
+    edicion: "I"
     titulo: "La Leyenda del Ladrón"
     descripcion: "Descripción de La Leyenda del Ladrón"
     categoria_id: 10
     editorial: 9
     favorite: true
-  - id: 12
+  - codigo: 12
+    edicion: "I"
     titulo: "El Nombre de la Rosa"
     descripcion: "Descripción de El Nombre de la Rosa"
     categoria_id: 10
     editorial: 3
     favorite: false
-  - id: 13
+  - codigo: 13
+    edicion: "I"
     titulo: "La legión olvidada"
     descripcion: "Descripción de La legión olvidada"
     categoria_id: 10
     editorial: 2
     favorite: false
-  - id: 14
+  - codigo: 14
+    edicion: "I"
     titulo: "Triple"
     descripcion: "Descripción de Triple"
     categoria_id: 10
     editorial: 2
     favorite: false
-  - id: 15
+  - codigo: 15
+    edicion: "I"
     titulo: "Un Mundo Sin Fin"
     descripcion: "Descripción de Un Mundo Sin Fin"
     categoria_id: 10
     editorial: 2
     favorite: false
-  - id: 16
+  - codigo: 16
+    edicion: "I"
     titulo: "Yo, Robot"
     descripcion: "Descripción de Yo, Robot"
     categoria_id: 1
     editorial: 10
     favorite: false
-  - id: 17
+  - codigo: 17
+    edicion: "I"
     titulo: "Trilogía de la Fundación"
     descripcion: "Descripción de Trilogía de la Fundación"
     categoria_id: 1
     editorial: 3
     favorite: false
-  - id: 18
+  - codigo: 18
+    edicion: "I"
     titulo: "Los muertos vivientes #1: Días pasados"
     descripcion: "Descripción de Los muertos vivientes #1: Días pasados"
     categoria_id: 6
     editorial: 11
     favorite: false
-  - id: 19
+  - codigo: 19
+    edicion: "I"
     titulo: "Los muertos vivientes #2: Días pasados"
     descripcion: "Descripción de Los muertos vivientes #2: Días pasados"
     categoria_id: 6
     editorial: 11
     favorite: false
-  - id: 20
+  - codigo: 20
+    edicion: "I"
     titulo: "Los muertos vivientes #3: Días pasados"
     descripcion: "Descripción de Los muertos vivientes #3: Días pasados"
     categoria_id: 6
     editorial: 11
     favorite: false
-  - id: 21
+  - codigo: 21
+    edicion: "I"
     titulo: "El señor de los anillos: La Comunidad del anillo"
     descripcion: "Descripción de El señor de los anillos: La Comunidad del anillo"
     categoria_id: 11
     editorial: 5
     favorite: false
-  - id: 22
+  - codigo: 22
+    edicion: "I"
     titulo: "El señor de los anillos: La Dos Torres"
     descripcion: "Descripción de El señor de los anillos: La Dos Torres"
     categoria_id: 11
     editorial: 5
     favorite: false
-  - id: 23
+  - codigo: 23
+    edicion: "I"
     titulo: "El señor de los anillos: El Retorno del Rey"
     descripcion: "Descripción de El señor de los anillos: El Retorno del Rey"
     categoria_id: 11
     editorial: 5
     favorite: false
-  - id: 24
+  - codigo: 24
+    edicion: "I"
     titulo: "El Hobbit"
     descripcion: "Descripción de El Hobbit"
     categoria_id: 11
     editorial: 5
     favorite: false
-  - id: 25
+  - codigo: 25
+    edicion: "I"
     titulo: "Orgullo y Prejuicio"
     descripcion: "Descripción de Orgullo y Prejuicio"
     categoria_id: 4
     editorial: 3
     favorite: false
-  - id: 26
+  - codigo: 26
+    edicion: "I"
     titulo: "Los hombres que no amaban a las mujeres"
     descripcion: "Descripción de Los hombres que no amaban a las mujeres"
     categoria_id: 2
     editorial: 9
     favorite: false
-  - id: 27
+  - codigo: 27
+    edicion: "I"
     titulo: "El eco negro"
     descripcion: "Descripción de El eco negro"
     categoria_id: 8
