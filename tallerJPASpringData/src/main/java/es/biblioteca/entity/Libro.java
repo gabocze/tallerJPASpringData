@@ -47,8 +47,8 @@ public class Libro {
      */
     @ManyToMany
     @JoinTable(name = "autor_libro",
-    		   joinColumns = {@JoinColumn(name = "libro_id"),
-                       @JoinColumn(name= "idioma")},
+    		   joinColumns = {@JoinColumn(name = "libro_codigo"),
+                       @JoinColumn(name= "libro_edicion")},
     		   inverseJoinColumns = @JoinColumn(name = "autor_id")
     		  )
     private List<Autor> autores;

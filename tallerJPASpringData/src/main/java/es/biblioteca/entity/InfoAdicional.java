@@ -46,8 +46,8 @@ public class InfoAdicional {
     @JoinColumns(
             {@JoinColumn(name = "libro_codigo", referencedColumnName =
                     "codigo"),
-            @JoinColumn(name = "libro_idioma", referencedColumnName =
-                    "idioma")}
+            @JoinColumn(name = "libro_edicion", referencedColumnName =
+                    "edicion")}
     )
     private Libro libro;
 

@@ -11,9 +11,9 @@ import java.io.Serializable;
 @Embeddable
 public class LibroId implements Serializable {
 	Integer codigo;
-	String idioma;
-	public LibroId(Integer codigo, String idioma) {
+	String edicion;  // "I", "II", "III", "IV", etc.
+	public LibroId(Integer codigo, String edicion) {
 		this.codigo = codigo;
-		this.idioma = idioma;
+		this.edicion = edicion;
 	}
 }
